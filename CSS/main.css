@@ -41,7 +41,7 @@ main {
   width: 50px;
 }
 .write-bnt {
-  background-color: #ff6e00;
+  background-color: var(--button-primary);
   color: white;
   position: fixed;
   bottom: 100px;
@@ -51,6 +51,10 @@ main {
   font-weight: bold;
   cursor: pointer;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.2s ease-in-out;
+}
+.write-bnt:hover {
+  background-color: var(--button-hover);
 }
 .item-list__info-title {
   cursor: pointer;
